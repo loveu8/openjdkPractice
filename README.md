@@ -1,5 +1,7 @@
-#OpenJDK 10 Practice Project#
-##UNIT 1 Test Local-Variable Type Inference (var)##
+OpenJDK 10 Practice Project
+================
+UNIT 1 Test Local-Variable Type Inference (var)
+------------------------------------------------
 We can see the test result.<br>
 Avg Cost Time (ms) : When you use more var. According to different object forms. It may the average execution time per second increase. However, some are reduced. <br>
 Avg Use Memory (MB) : Basically the test results will not differ too much. Unless you have a large number of executions, you can reduce the use var. <br>
