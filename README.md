@@ -3,11 +3,12 @@ OpenJDK 10 Practice Project
 UNIT 1 Test Local-Variable Type Inference (var)
 ------------------------------------------------
 We can see the test result.<br>
+Old mean use old java variable defined. New mean all use var. <br>
 Avg Cost Time (ms) : When you use more var. According to different object forms. It may the average execution time per second increase. However, some are reduced. <br>
 Avg Use Memory (MB) : Basically the test results will not differ too much. Unless you have a large number of executions, you can reduce the use var. <br>
 <table>
     <tr><td>type</td><td>avgCostTime(ms)</td><td>avgUseMemory(MB)</td><td>runtime</td><td>looptime</td></tr>
-    <tr><td>OldArrayList</td><td>3</td><td>3</td><td>100000</td><td>100</td></tr>
+    <tr><td>OldArrayList</td><td>3</td><td>3</td><td >100000</td><td>100</td></tr>
 	<tr><td>NewArrayList</td><td>1</td><td>2</td><td>100000</td><td>100</td></tr>
 	<tr><td>OldLinkedList</td><td>14</td><td>4</td><td>100000</td><td>100</td></tr>
 	<tr><td>NewLinkedList</td><td>12</td><td>4</td><td>100000</td><td>100</td></tr>
